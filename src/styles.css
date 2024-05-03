@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.select-options {
+  display: flex;
+  flex-direction: column;
+}
+.select-box {
+  display: inline;
+  border: 1px solid black;
+  width: auto;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.show-selected {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 2px 5px;
+  border-radius: 5px;
+  width: 50%;
+}
+.container {
+  margin: 1px 5px 1px 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.each-item {
+  display: flex;
+  margin: 0px 3px;
+  gap: 2px;
+  background-color: #ccc;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+.cross {
+  padding: 0px 0px;
+  color: rgb(149, 109, 109);
+  cursor: pointer;
+}
